@@ -10,7 +10,7 @@ with sync_playwright() as p:
     checkbox.click()
 
     if checkbox.is_checked():
-        print("Passed..")
+        print("Passed........")
     else:
         print("Failed.")
 
